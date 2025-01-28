@@ -44,7 +44,8 @@ st.title("SMS Spam Detection Model")
 st.write("*This is a Machine Learning application to Predict SMS as spam or ham made by Deepak Kumar*")
     
 
-input_sms = st.text_input("Enter the SMS for Prediction")
+#input_sms = st.text_input("Enter the SMS for Prediction")
+input_sms = st.text_area("Enter the SMS for Prediction", height=150)
 
 if st.button('Predict'):
     if input_sms:
